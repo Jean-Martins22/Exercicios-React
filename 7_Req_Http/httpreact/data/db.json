@@ -16,14 +16,14 @@
       "price": 29.9
     },
     {
-      "id": "b04c",
-      "name": "Teste",
-      "price": "12"
-    },
-    {
       "id": "e932",
       "name": "Teclado",
       "price": "110"
+    },
+    {
+      "id": "da85",
+      "name": "Mochilha",
+      "price": "150"
     }
   ]
 }
