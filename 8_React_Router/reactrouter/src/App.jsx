@@ -7,9 +7,11 @@ import About from "./pages/About";
 import Product from "./pages/Product";
 import Info from "./pages/Info";
 import NotFound from "./pages/NotFound";
+import Search from "./pages/Search";
 
 // Components
 import Navbar from "./components/Navbar";
+import SearchForm from "./components/SearchForm";
 
 // 1 - Config React Router
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -21,6 +23,8 @@ function App() {
       <BrowserRouter>
         {/* 2 - Links Com React Router */}
         <Navbar />
+        {/* 9 - Search */}
+        <SearchForm />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -28,6 +32,8 @@ function App() {
           <Route path="/products/:id" element={<Product />} />
           {/* 6 - Nested Route */}
           <Route path="/products/:id/info" element={<Info />} />
+          {/* 9 - Search */}
+          <Route path="/search" element={<Search />} />
           {/* 7 - No Match Route */}
           <Route path="*" element={<NotFound />} />
         </Routes>
