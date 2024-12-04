@@ -19,6 +19,11 @@
       "id": "b04c",
       "name": "Teste",
       "price": "12"
+    },
+    {
+      "id": "e932",
+      "name": "Teclado",
+      "price": "110"
     }
   ]
 }
